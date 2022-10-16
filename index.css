@@ -1,0 +1,11 @@
+.header {
+    color: beige;
+}
+
+.dark-bg {
+    height: 140px;
+    padding: 16px;
+    background: plum;
+    border: 4px solid indigo;
+    display: flex;
+}
