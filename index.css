@@ -36,7 +36,6 @@ h1 {
     font-size: 48px;
     color: #f9faf8;
     padding-top: 50px;
-    padding-left: 10%;
     width: 40%;
 }
 
@@ -44,14 +43,12 @@ h1 {
     font-family: Roboto;
     font-size: 18px;
     color: #e5e7eb;
-    padding-left: 10%;
     width: 40%;
 }
 
 .button {
     font-family: Roboto;
     color: #f9faf8;
-    margin-left: 10%;
     margin-top: 10px;
     background-color: #3882f6;
     width: 100px;
@@ -59,4 +56,27 @@ h1 {
     line-height: 30px;
     text-align: center;
     border-radius: 5px;
+}
+
+.body1{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    margin-left: 10%;
+    flex-direction: column;
+}
+
+.crop {
+    height: 250px;
+    width: 600px;
+    overflow: hidden;
+
+
+}
+
+.crop img {
+    height: 250px;
+    width: 600px;
 }
