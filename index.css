@@ -39,6 +39,17 @@ h1 {
     width: 40%;
 }
 
+h2 {
+    font-family: Roboto;
+    font-size: 39px;
+    font-weight: bolder;
+    color: #1f2937;
+    background-color: #e5e7eb;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
 .subtext {
     font-family: Roboto;
     font-size: 18px;
@@ -61,6 +72,7 @@ h1 {
 .body1{
     display: flex;
     justify-content: center;
+    height: 300px;
 }
 
 .title{
@@ -72,11 +84,33 @@ h1 {
     height: 250px;
     width: 600px;
     overflow: hidden;
-
-
 }
 
 .crop img {
     height: 250px;
     width: 600px;
+}
+
+.body2 {
+    background-color: #e5e7eb;
+    margin-top: 5%;
+    height: 300px;
+}
+
+.subcards {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: center;
+    gap: 20px;
+    background-color: #e5e7eb;
+}
+
+.subcard div {
+    border: 4px #3882f6;
+    height: 100px;
+    flex: 1;
+    background-color: #e5e7eb;
+
+    
 }
